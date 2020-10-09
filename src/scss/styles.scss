@@ -5,11 +5,27 @@ $colorHeading: #be4a14;
     color: $fontColor;
 }
 
+h1{
+    @extend h2;
+}
+
 h2
 {
     color: $colorHeading;
 }
 
-h1{
-    @extend h2;
+
+
+#input{
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+body{
+    background-color: #be4a14;
+}
+
+#output{
+    color: #be4a14;
+    font-size: large;
 }
